@@ -5,7 +5,7 @@
     const matchingWords = requiredWords.filter(word => document.body.innerText.includes(word));
 
     const isValidAddress = (address) => {
-        const pattern = /^https:\/\/[a-z0-9-]+\.(shaparak\.ir\/)/i;
+        const pattern = /^https:\/\/[a-z0-9-]+\.(shaparak\.ir(:8080)?\/)/i;
         return pattern.test(address);
     };
 
