@@ -16,7 +16,7 @@
             customContainer.className = "custom-container";
 
             customContainer.innerHTML = '<div class="paymentprotection_div r15 b_red fade-in">\n' +
-                '<img src="chrome-extension://jgbdolpjohpbipbmcpmbdalaoddoimmi/images/warning.png" class="paymentprotection_img" width="70" height="70" draggable="false" />\n'+
+                '<img src="https://raw.githubusercontent.com/A3is/Payment-Protection/main/images/warning-128.png" class="paymentprotection_img" width="70" height="70" draggable="false" />\n'+
                 '<div class="paymentprotection_title">هشدار امنیتی</div>\n'+
                 '<div class="paymentprotection_text">در این صفحه از کلمات مربوط به درگاه پرداخت استفاده شده است!' +
                 '<br style="clear: both">'+
@@ -46,7 +46,7 @@
         customContainer.className = "custom-container";
 
         customContainer.innerHTML = '<div class="paymentprotection_div r15 b_green fade-in">\n' +
-            '<img src="chrome-extension://jgbdolpjohpbipbmcpmbdalaoddoimmi/images/success.png" class="paymentprotection_img" width="70" height="70" draggable="false" />\n'+
+            '<img src="https://raw.githubusercontent.com/A3is/Payment-Protection/main/images/success-128.png" class="paymentprotection_img" width="70" height="70" draggable="false" />\n'+
             '<div class="paymentprotection_title">تایید درگاه</div>\n'+
             '<div class="paymentprotection_text">اصالت این درگاه پرداخت تایید شد.' +
             '<br style="clear: both">'+
